@@ -238,9 +238,27 @@
   color: var(--text);
 }
 
+.mobile-menu-bottom {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.mobile-menu-bottom span {
+  font-size: var(--fs-sm);
+  color: var(--text-dim);
+}
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
   }
 
   .hamburger {
