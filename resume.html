@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume — Lucia Cruz">
+  <title>Resume — Lucia Cruz</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <nav class="navbar" aria-label="Navegación principal">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="index.html" class="nav-logo">LC.</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="work.html">Work</a>
+          <a href="playground.html">Playground</a>
+          <a href="resume.html" class="active">Resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="work.html">Work</a>
+    <a href="playground.html">Playground</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-section" style="padding-top: calc(var(--nav-height) + var(--spacing-4xl));">
+    <div class="container">
+      <h1 class="section-title fade-in">Resume</h1>
+      <p class="section-subtitle fade-in">Mi CV en línea y descargable.</p>
+
+      <div class="resume-content">
+        <div class="resume-preview fade-in">
+          <h3>Lucia Cruz</h3>
+          <p style="margin-bottom: var(--spacing-lg);">Diseñadora &amp; Desarrolladora Web</p>
+
+          <h4 style="margin-bottom: var(--spacing-md);">Experiencia</h4>
+          <div style="margin-bottom: var(--spacing-lg);">
+            <strong>Frontend Developer</strong>
+            <p style="font-size: var(--fs-sm); color: var(--text-dim);">Empresa XYZ · 2024 – Presente</p>
+            <p style="font-size: var(--fs-sm); color: var(--text-dim); margin-top: var(--spacing-sm);">Desarrollo de interfaces web responsivas, implementación de diseños desde Figma, optimización de performance.</p>
+          </div>
+          <div style="margin-bottom: var(--spacing-lg);">
+            <strong>UI/UX Designer</strong>
+            <p style="font-size: var(--fs-sm); color: var(--text-dim);">Studio ABC · 2022 – 2024</p>
+            <p style="font-size: var(--fs-sm); color: var(--text-dim); margin-top: var(--spacing-sm);">Diseño de interfaces para apps móviles y web, prototipado, test de usabilidad.</p>
+          </div>
+
+          <h4 style="margin-bottom: var(--spacing-md);">Educación</h4>
+          <div style="margin-bottom: var(--spacing-lg);">
+            <strong>Licenciatura en Diseño Digital</strong>
+            <p style="font-size: var(--fs-sm); color: var(--text-dim);">Universidad de Buenos Aires · 2018 – 2022</p>
+          </div>
+
+          <h4 style="margin-bottom: var(--spacing-md);">Skills</h4>
+          <div class="tag-list">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Git</span>
+            <span class="tag">Responsive Design</span>
+            <span class="tag">UI/UX</span>
+          </div>
+        </div>
+
+        <div class="resume-sidebar fade-in" style="transition-delay: 0.2s;">
+          <div class="resume-download">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            <p>Descargá mi CV en formato PDF</p>
+            <a href="assets/resume/lucia-cv.pdf" download class="btn btn-primary">Descargar CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">&copy; 2026 Lucia Cruz</span>
+        <div class="footer-links">
+          <a href="https://github.com/viernesenvenus" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

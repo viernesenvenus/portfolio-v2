@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Playground — Mini proyectos web de Lucia Cruz">
+  <title>Playground — Lucia Cruz</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <nav class="navbar" aria-label="Navegación principal">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="index.html" class="nav-logo">LC.</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="work.html">Work</a>
+          <a href="playground.html" class="active">Playground</a>
+          <a href="resume.html">Resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="work.html">Work</a>
+    <a href="playground.html">Playground</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-section" style="padding-top: calc(var(--nav-height) + var(--spacing-4xl));">
+    <div class="container">
+      <h1 class="section-title fade-in">Playground</h1>
+      <p class="section-subtitle fade-in">Mini proyectos web, experimentos y demos interactivas.</p>
+      <div class="grid grid-3" id="playground-grid"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">&copy; 2026 Lucia Cruz</span>
+        <div class="footer-links">
+          <a href="https://github.com/viernesenvenus" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/playground.js"></script>
+</body>
+</html>

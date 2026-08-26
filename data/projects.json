@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Cineplanet Redesign",
+    "shortDescription": "Rediseño completo de la plataforma de cine.",
+    "description": "Un rediseño completo de la experiencia de usuario de Cineplanet, enfocado en simplicidad y velocidad de compra de entradas. El proyecto incluyó research con usuarios, wireframing, prototipado en Figma y desarrollo frontend.",
+    "category": "UI/UX",
+    "tags": ["Figma", "Prototyping", "User Research"],
+    "year": "2025",
+    "role": "UI/UX Designer",
+    "color": "#1a1a2e",
+    "icon": "🎬",
+    "liveUrl": "",
+    "repoUrl": "",
+    "images": ["Hero section", "Movie detail page", "Seat selection flow"]
+  },
+  {
+    "id": 2,
+    "title": "Portfolio v1",
+    "shortDescription": "Mi primer portfolio personal.",
+    "description": "Portfolio personal versión 1, construido con HTML, CSS y JavaScript vanilla. Incluye secciones deAbout, Projects y Contact con diseño responsive y dark mode.",
+    "category": "Web",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "year": "2024",
+    "role": "Full Stack",
+    "color": "#16213e",
+    "icon": "🌐",
+    "liveUrl": "",
+    "repoUrl": "https://github.com/viernesenvenus",
+    "images": ["Landing page", "Projects section"]
+  },
+  {
+    "id": 3,
+    "title": "Dashboard UI Kit",
+    "shortDescription": "Kit de componentes para dashboards.",
+    "description": "Un sistema de diseño completo para dashboards administrativos. Incluye más de 30 componentes reutilizables, 5 pantallas completas y documentación de uso.",
+    "category": "UI/UX",
+    "tags": ["Figma", "Design System", "Components"],
+    "year": "2025",
+    "role": "UI Designer",
+    "color": "#1b1b2f",
+    "icon": "📊",
+    "liveUrl": "",
+    "repoUrl": "",
+    "images": ["Dashboard overview", "Analytics view", "Component library"]
+  },
+  {
+    "id": 4,
+    "title": "Landing Page App",
+    "shortDescription": "Landing page responsive para app mobile.",
+    "description": "Landing page para una app de productividad personal. Diseño mobile-first con animaciones CSS, secciones de features, pricing y testimonials.",
+    "category": "Web",
+    "tags": ["HTML", "CSS", "Animations"],
+    "year": "2024",
+    "role": "Frontend Developer",
+    "color": "#0f3460",
+    "icon": "📱",
+    "liveUrl": "",
+    "repoUrl": "",
+    "images": ["Hero section", "Features grid", "Pricing table"]
+  }
+]

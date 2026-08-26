@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Detalle del proyecto — Lucia Cruz">
+  <title>Project — Lucia Cruz</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <nav class="navbar" aria-label="Navegación principal">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="index.html" class="nav-logo">LC.</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="work.html">Work</a>
+          <a href="playground.html">Playground</a>
+          <a href="resume.html">Resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="work.html">Work</a>
+    <a href="playground.html">Playground</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="project-hero page-section">
+    <div class="container">
+      <a href="projects.html" class="btn btn-outline btn-sm" style="margin-bottom: var(--spacing-2xl);">← Volver a proyectos</a>
+      <div id="project-detail">
+        <h1 class="fade-in" id="project-title"></h1>
+        <div class="project-meta fade-in" id="project-meta"></div>
+        <p class="section-subtitle fade-in" id="project-description"></p>
+        <div class="project-links fade-in" id="project-links"></div>
+        <div class="project-gallery fade-in" id="project-gallery"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">&copy; 2026 Lucia Cruz</span>
+        <div class="footer-links">
+          <a href="https://github.com/viernesenvenus" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Frontend Developer",
+    "company": "Empresa XYZ",
+    "date": "2024 – Presente",
+    "description": "Desarrollo de interfaces web responsivas utilizando HTML, CSS y JavaScript. Implementación de diseños desde Figma, optimización de performance y mantenimiento de componentes reutilizables."
+  },
+  {
+    "title": "UI/UX Designer",
+    "company": "Studio ABC",
+    "date": "2022 – 2024",
+    "description": "Diseño de interfaces para aplicaciones móviles y web. Creación de wireframes, prototipos interactivos y test de usabilidad con usuarios reales."
+  },
+  {
+    "title": "Freelance Designer",
+    "company": "Independiente",
+    "date": "2021 – 2022",
+    "description": "Diseño de identidad visual, páginas web y materiales gráficos para clientes de distintos rubros: gastronomía, tecnología y educación."
+  }
+]

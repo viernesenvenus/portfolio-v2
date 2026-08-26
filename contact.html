@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacto — Lucia Cruz">
+  <title>Contact — Lucia Cruz</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <nav class="navbar" aria-label="Navegación principal">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="index.html" class="nav-logo">LC.</a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="work.html">Work</a>
+          <a href="playground.html">Playground</a>
+          <a href="resume.html">Resume</a>
+          <a href="contact.html" class="active">Contact</a>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="work.html">Work</a>
+    <a href="playground.html">Playground</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="page-section" style="padding-top: calc(var(--nav-height) + var(--spacing-4xl));">
+    <div class="container">
+      <h1 class="section-title fade-in">Contact</h1>
+      <p class="section-subtitle fade-in">¿Tenés un proyecto en mente? Hablemos.</p>
+
+      <div class="contact-layout">
+        <form id="contact-form" class="fade-in" novalidate>
+          <div class="form-group">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Tu nombre" required>
+            <span class="form-error" id="name-error">Por favor ingresá tu nombre.</span>
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="tu@email.com" required>
+            <span class="form-error" id="email-error">Por favor ingresá un email válido.</span>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Mensaje</label>
+            <textarea id="message" name="message" class="form-textarea" placeholder="Contame sobre tu proyecto..." required></textarea>
+            <span class="form-error" id="message-error">Por favor escribí un mensaje.</span>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+
+        <div class="contact-links fade-in" style="transition-delay: 0.2s;">
+          <a href="mailto:lucia@example.com" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            <div>
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-text">lucia@example.com</span>
+            </div>
+          </a>
+          <a href="https://github.com/viernesenvenus" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">⌘</span>
+            <div>
+              <span class="contact-link-label">GitHub</span>
+              <span class="contact-link-text">viernesenvenus</span>
+            </div>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-link-icon">in</span>
+            <div>
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-text">Lucia Cruz</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">&copy; 2026 Lucia Cruz</span>
+        <div class="footer-links">
+          <a href="https://github.com/viernesenvenus" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

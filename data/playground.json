@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Animated Cards",
+    "description": "Set de cards con animaciones CSS al hacer hover. Efecto de elevación, cambio de color y transición suave.",
+    "tags": ["CSS", "Animations"],
+    "color": "#1a1a2e",
+    "icon": "✨",
+    "liveUrl": "",
+    "repoUrl": ""
+  },
+  {
+    "title": "Countdown Timer",
+    "description": "Timer regressivo con diseño minimalista. Actualización en tiempo real y animación de cambio de números.",
+    "tags": ["JavaScript", "CSS"],
+    "color": "#16213e",
+    "icon": "⏱",
+    "liveUrl": "",
+    "repoUrl": ""
+  },
+  {
+    "title": "Gradient Generator",
+    "description": "Generador de gradientes CSS interactivo. Seleccioná colores y copiá el código CSS resultante.",
+    "tags": ["JavaScript", "CSS", "Interactive"],
+    "color": "#0f3460",
+    "icon": "🎨",
+    "liveUrl": "",
+    "repoUrl": ""
+  },
+  {
+    "title": "CSS Grid Layout",
+    "description": "Demo interactiva de CSS Grid. Modificá columnas, filas y gaps en tiempo real.",
+    "tags": ["CSS", "Interactive"],
+    "color": "#1b1b2f",
+    "icon": "📐",
+    "liveUrl": "",
+    "repoUrl": ""
+  },
+  {
+    "title": "Dark Mode Toggle",
+    "description": "Toggle de dark/light mode con transición suave y persistencia en localStorage.",
+    "tags": ["JavaScript", "CSS"],
+    "color": "#1a1a2e",
+    "icon": "🌙",
+    "liveUrl": "",
+    "repoUrl": ""
+  },
+  {
+    "title": "Form Validation",
+    "description": "Formulario con validación en tiempo real, mensajes de error animados y estados de éxito.",
+    "tags": ["JavaScript", "Forms"],
+    "color": "#16213e",
+    "icon": "📝",
+    "liveUrl": "",
+    "repoUrl": ""
+  }
+]

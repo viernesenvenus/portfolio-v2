@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Lucia Cruz — Diseñadora & Desarrolladora Web">
+  <meta property="og:title" content="Lucia Cruz — Portfolio">
+  <meta property="og:description" content="Diseñadora & Desarrolladora Web">
+  <meta property="og:type" content="website">
+  <title>Lucia Cruz — Portfolio</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+
+  <nav class="navbar" aria-label="Navegación principal">
+    <div class="container">
+      <div class="navbar-inner">
+        <a href="index.html" class="nav-logo">LC.</a>
+        <div class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="work.html">Work</a>
+          <a href="playground.html">Playground</a>
+          <a href="resume.html">Resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="work.html">Work</a>
+    <a href="playground.html">Playground</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-label">availableForWork</span>
+        <h1>Lucia Cruz</h1>
+        <p>Diseñadora &amp; Desarrolladora Web. Creo interfaces limpias, funcionales y con atención al detalle.</p>
+        <div class="hero-buttons">
+          <a href="projects.html" class="btn btn-primary">Ver proyectos</a>
+          <a href="contact.html" class="btn btn-outline">Contactame</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section">
+    <div class="container">
+      <h2 class="section-title fade-in">Proyectos destacados</h2>
+      <p class="section-subtitle fade-in">Una selección de mi trabajo reciente.</p>
+      <div class="grid grid-3" id="featured-projects"></div>
+      <div class="text-center" style="margin-top: var(--spacing-2xl);">
+        <a href="projects.html" class="btn btn-outline fade-in">Ver todos los proyectos</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-text">&copy; 2026 Lucia Cruz</span>
+        <div class="footer-links">
+          <a href="https://github.com/viernesenvenus" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="contact.html">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+</body>
+</html>
