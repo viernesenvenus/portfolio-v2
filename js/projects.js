@@ -4,10 +4,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   if (window.location.pathname.includes('project-detail.html')) {
     renderDetail(projects);
+  } else if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/') || window.location.pathname === '') {
+    renderFeatured(projects);
   } else {
     renderGrid(projects);
   }
 });
+
+function renderFeatured(projects) {
+  const grid = document.getElementById('featured-projects');
+  if (!grid) return;
+
+  const featured = projects.filter(p => p.featured).slice(0, 3);
+  renderProjects(grid, featured);
+}
 
 function renderGrid(projects) {
   const grid = document.getElementById('projects-grid');
