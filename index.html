@@ -8,6 +8,12 @@
   <meta property="og:description" content="Diseñadora & Desarrolladora Web">
   <meta property="og:type" content="website">
   <title>Lucia Cruz — Portfolio</title>
+  <script>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (t === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    })();
+  </script>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/variables.css">
   <link rel="stylesheet" href="css/base.css">

@@ -1,16 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
-  initTheme();
+  initThemeToggle();
   initNav();
   initFadeIn();
 });
 
-function initTheme() {
+function initThemeToggle() {
   const toggle = document.querySelector('.theme-toggle');
   if (!toggle) return;
 
   const saved = localStorage.getItem('theme');
   if (saved === 'light') {
-    document.documentElement.setAttribute('data-theme', 'light');
     toggle.textContent = '☀';
     toggle.setAttribute('aria-label', 'Cambiar a modo oscuro');
   } else {
@@ -61,7 +60,7 @@ function initNav() {
 }
 
 function initFadeIn() {
-  const elements = document.querySelectorAll('.fade-in');
+  const elements = document.querySelectorAll('.fade-in:not(.visible)');
   if (!elements.length) return;
 
   const observer = new IntersectionObserver((entries) => {
