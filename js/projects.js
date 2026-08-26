@@ -1,10 +1,11 @@
 document.addEventListener('DOMContentLoaded', async () => {
   const res = await fetch('data/projects.json');
   const projects = await res.json();
+  const path = window.location.pathname;
 
-  if (window.location.pathname.includes('project-detail.html')) {
+  if (path.includes('project-detail.html')) {
     renderDetail(projects);
-  } else if (window.location.pathname.endsWith('index.html') || window.location.pathname.endsWith('/') || window.location.pathname === '') {
+  } else if (path.endsWith('index.html') || path.endsWith('/') || path === '' || path === '/index.html') {
     renderFeatured(projects);
   } else {
     renderGrid(projects);
@@ -103,5 +104,3 @@ function renderDetail(projects) {
 
   initFadeIn();
 }
-
-function renderDetail(projects) {
