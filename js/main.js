@@ -1,7 +1,38 @@
 document.addEventListener('DOMContentLoaded', () => {
+  initTheme();
   initNav();
   initFadeIn();
 });
+
+function initTheme() {
+  const toggle = document.querySelector('.theme-toggle');
+  if (!toggle) return;
+
+  const saved = localStorage.getItem('theme');
+  if (saved === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    toggle.textContent = '☀';
+    toggle.setAttribute('aria-label', 'Cambiar a modo oscuro');
+  } else {
+    toggle.textContent = '☾';
+    toggle.setAttribute('aria-label', 'Cambiar a modo claro');
+  }
+
+  toggle.addEventListener('click', () => {
+    const isLight = document.documentElement.getAttribute('data-theme') === 'light';
+    if (isLight) {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('theme', 'dark');
+      toggle.textContent = '☾';
+      toggle.setAttribute('aria-label', 'Cambiar a modo claro');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+      localStorage.setItem('theme', 'light');
+      toggle.textContent = '☀';
+      toggle.setAttribute('aria-label', 'Cambiar a modo oscuro');
+    }
+  });
+}
 
 function initNav() {
   const hamburger = document.querySelector('.hamburger');
